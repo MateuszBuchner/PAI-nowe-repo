@@ -1,0 +1,148 @@
+
+*{
+    color: #999;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+	color: #fff;
+	background: #63738a;
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 450px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+}
+
+.container h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.container .input_field{
+  margin-bottom: 10px;
+}
+
+.container .input_field input[type="text"],
+.container textarea{
+  border: 1spx solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 25px;
+
+
+}
+
+.container .input_field2 input[type="text"],
+.container textarea{
+  border: 1spx solid #e0e0e0;
+  width: 50%;
+  padding: 10px;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.container .input_field input[type="password"],
+.container textarea{
+  border: 1spx solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+    margin-bottom: 30px;
+
+}
+
+.container textarea{
+  resize: none;
+  height: 80px;
+}
+
+.container .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
+
+
+.signup-form h2 {
+	color: #636363;
+	margin: 1 1 15px;
+	position: relative;
+	text-align: center;
+}
+.signup-form h2:before, .signup-form h2:after {
+	content: "";
+	height: 2px;
+	width: 30%;
+	background: #d4d4d4;
+	position: absolute;
+	top: 50%;
+	z-index: 2;
+}	
+.signup-form h2:before {
+	left: 0;
+}
+.signup-form h2:after {
+	right: 0;
+}
+.signup-form .hint-text {
+	color: #999;
+	margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+input[type=text], select {
+    border: 1px solid #ccc;
+}
+input[type=password], select {
+    border: 1px solid #ccc;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+
+  }
+
+  .text-center{
+    position: absolute;
+    transform: translate(50%,200%);  
+    color: white;
+}
+b{
+    color: wheat;
+    text-decoration: underline;
+}
+
+.button {
+  margin-top: 25px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  width: 450px;
+  transform: translate(0%, 0%);
+}
